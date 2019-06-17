@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  position: relative;
+  background-color: #d1d1d1;
+  box-sizing: border-box;
+  border-top: solid 30px #5ce23b;
+  border-bottom: solid 30px #5ce23b;
+  overflow: hidden;
+}
+
+.Top {
+  position: absolute;
+  height: 500px;
+  width: 240px;
+  background-color: #ffd800;
+  color: #0d214c;
+  border-radius: 30px 30px 225px 30px;
+  margin-top: -100px;
+  margin-left: -75px;
+  font-family: "Anton", sans-serif;
+}
+.Top h3 {
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 25px;
+  width: 100px;
+  line-height: 60px;
+}
+.Top h3 span {
+  background-color: red;
+  font-size: 50px;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  left: 100%;
+}
+
+.namecard {
+  position: fixed;
+  width: 320px;
+  height: 200px;
+  left: 60%;
+  top: 50%;
+  padding: 0px 20px 30px 20px;
+  overflow: hidden;
+  background-color: #ffafdf;
+  color: #0d214c;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 20px 25px 15px -15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "Noto Sans TC", sans-serif;
+  transition: 0.5s;
+}
+.namecard hr {
+  border-color: #fff;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+.namecard h2 {
+  font-size: 25px;
+}
+.namecard span {
+  font-size: 18px;
+}
+.namecard h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.namecard:hover {
+  -webkit-transform: translate(-50px, -50px);
+          transform: translate(-50px, -50px);
+  box-shadow: -20px -25px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.allbub {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  z-index: -11;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #729ee0;
+}
+@-webkit-keyframes failing {
+  0%,100% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  0% {
+    -webkit-transform: translate(0px, -50%);
+            transform: translate(0px, -50%);
+  }
+  100% {
+    -webkit-transform: translate(0px, 100%);
+            transform: translate(0px, 100%);
+  }
+}
+@keyframes failing {
+  0%,100% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  0% {
+    -webkit-transform: translate(0px, -50%);
+            transform: translate(0px, -50%);
+  }
+  100% {
+    -webkit-transform: translate(0px, 100%);
+            transform: translate(0px, 100%);
+  }
+}
+.allbub [class*='bub'] {
+  background-color: #fff;
+  width: 5px;
+  height: 30px;
+  -webkit-animation: failing 2s infinite;
+          animation: failing 2s infinite;
+}
+.allbub .bub1 {
+  position: absolute;
+  left: 3.5433860536%;
+  top: -8.2419997569%;
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+.allbub .bub2 {
+  position: absolute;
+  left: 81.7570204713%;
+  top: 52.196148768%;
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+.allbub .bub3 {
+  position: absolute;
+  left: 75.6692555261%;
+  top: 11.6613873368%;
+  -webkit-animation-delay: -0.6s;
+          animation-delay: -0.6s;
+}
+.allbub .bub4 {
+  position: absolute;
+  left: 2.7555174165%;
+  top: 20.9148591774%;
+  -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s;
+}
+.allbub .bub5 {
+  position: absolute;
+  left: 36.5493859277%;
+  top: -7.9435097474%;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+.allbub .bub6 {
+  position: absolute;
+  left: 75.5668402229%;
+  top: 32.0540198993%;
+  -webkit-animation-delay: -1.2s;
+          animation-delay: -1.2s;
+}
+.allbub .bub7 {
+  position: absolute;
+  left: 58.8115416732%;
+  top: -3.3388088655%;
+  -webkit-animation-delay: -1.4s;
+          animation-delay: -1.4s;
+}
+.allbub .bub8 {
+  position: absolute;
+  left: 99.7432102762%;
+  top: 64.597327353%;
+  -webkit-animation-delay: -1.6s;
+          animation-delay: -1.6s;
+}
+.allbub .bub9 {
+  position: absolute;
+  left: 62.455087556%;
+  top: 50.0149084493%;
+  -webkit-animation-delay: -1.8s;
+          animation-delay: -1.8s;
+}
+.allbub .bub10 {
+  position: absolute;
+  left: 64.0688320096%;
+  top: 10.6442321622%;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+.allbub .bub11 {
+  position: absolute;
+  left: 18.0261985752%;
+  top: 30.5401293477%;
+  -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+}
+.allbub .bub12 {
+  position: absolute;
+  left: 14.1134438248%;
+  top: 28.7855466376%;
+  -webkit-animation-delay: -2.4s;
+          animation-delay: -2.4s;
+}
+.allbub .bub13 {
+  position: absolute;
+  left: 15.9895616144%;
+  top: 72.7471134792%;
+  -webkit-animation-delay: -2.6s;
+          animation-delay: -2.6s;
+}
+.allbub .bub14 {
+  position: absolute;
+  left: 60.7563045614%;
+  top: 43.2001024949%;
+  -webkit-animation-delay: -2.8s;
+          animation-delay: -2.8s;
+}
+.allbub .bub15 {
+  position: absolute;
+  left: 93.260968685%;
+  top: 51.8996601405%;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+}
+.allbub .bub16 {
+  position: absolute;
+  left: 42.7836394622%;
+  top: -9.2337264148%;
+  -webkit-animation-delay: -3.2s;
+          animation-delay: -3.2s;
+}
+.allbub .bub17 {
+  position: absolute;
+  left: 60.2789653781%;
+  top: 47.9416515673%;
+  -webkit-animation-delay: -3.4s;
+          animation-delay: -3.4s;
+}
+.allbub .bub18 {
+  position: absolute;
+  left: 49.0218545826%;
+  top: 31.8536687706%;
+  -webkit-animation-delay: -3.6s;
+          animation-delay: -3.6s;
+}
+.allbub .bub19 {
+  position: absolute;
+  left: 60.4365887525%;
+  top: 45.3699263776%;
+  -webkit-animation-delay: -3.8s;
+          animation-delay: -3.8s;
+}
+.allbub .bub20 {
+  position: absolute;
+  left: 29.5675681353%;
+  top: 13.0675297525%;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+}
